@@ -1,11 +1,4 @@
-/*
-*DILARANG RECODE TANPA CREDIT!! NO CREDIT = GABAKAL UP SC LAGI!!
-*AWAS AE KALO KETAUAN_-
-*SUBSCRIBE YOUTUBE KAMI
-*Fadhil : Fadhil Graphy
-*Affis : Ampibi Gaming
-*/
-
+/
 const {
    WAConnection,
    MessageType,
@@ -40,19 +33,19 @@ const ffmpeg = require('fluent-ffmpeg')
 const cd = 4.32e+7
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
-const vcard = 'BEGIN:VCARD\n' //GANTI NO DAN NAMA DIBAWAH INI JADI PUNYA LU
-            + 'VERSION:3.0\n' //JANGAN HILANGKAN CREDIT
-            + 'FN:Vai838 \n' //PENGEMBANG BY :
-            + 'ORG: Student;\n' //MYBOT TEAM
-            + 'TEL;type=CELL;type=VOICE;waid=917306030148:+91 7306030148\n' 
-            + 'END:VCARD' //SCRIPT ORI FROM MAHANKBARBAR
-prefix = '#'
+const vcard = 'BEGIN:VCARD\n' 
+            + 'VERSION:3.0\n' 
+            + 'FN:chikku Admin\n' 
+            + 'ORG: chikku Bot;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=917356145338:+91 7356145338\n' 
+            + 'END:VCARD'
+prefix = '.'
 blocked = []   
 limitawal = '20'
-cr = '*Verified Bot*'
+cr = '*CHIKKU*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["917306030148@s.whatsapp.net"] //ganti nomor lu
+const ownerNumber = ["917356145338@s.whatsapp.net"]
 /************************************/
 
        
@@ -1531,17 +1524,3 @@ client.on('group-participants-update', async (anu) => {
 			console.log('Error : %s', color(e, 'red'))
 		}
 	})
-
-/*
-*JANGAN HILANGKAN CREDIT SU!!
-*SPECIAL THANGKS TO
-*AFFIS JUNIANTO
-*FADHIL GRAPHY
-*MAHANKBARBAR
-*XPTN
-*RISKI
-*BARXNL
-*ANANG
-*BRYAN
-*MYBOT TEAM
-*/
