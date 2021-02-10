@@ -3,7 +3,7 @@ exports.wait = () => {
 }
 
 exports.succes = () => {
-	return`*「 SUCCES 」*`
+	return`*「 SUCCESS 」*`
 }
 
 exports.lvlon = () => {
@@ -123,18 +123,12 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
-╰════─⊱  ⸨ *Vai838* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *𝘾𝙃𝙄𝙆𝙆𝙐* ⸩  ⊰─════╯
 
-            𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
-▬▭▬▭▬▭▬▭▬▭▬▭▬
-●⧐ *Spam : Auto Block!*
-●⧐ *Expect a 5 seconds delay !!*
-●⧐ *Bug / Error Please Cht with Owner!*
-●⧐ *To Make Sure The Bot Is Off / On:*
-●⧐ *Type $ {prefix} bot*
-●⧐ *Please be patient with the bugs!*
-●⧐ *Use the Bot wisely!*
-▬▭▬▭▬▭▬▭▬▭▬▭▬
+            ✫𝐑𝐮𝐥𝐞𝐬✫
+⫷⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸⫷⫸
+〇 *Spam : Auto Block!*
+彡彡彡彡彡彡彡彡彡彡彡彡彡彡
 
 ╭══─⊱ ❰ *MAKER MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}sticker*
@@ -198,7 +192,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}info*
 ╠☞ *${prefix}owner*
 ║
-╰════─⊱ ⸨ *Vai838* ⸩ ⊰─════╯
+╰════─⊱ ⸨ 𝘾𝙃𝙄𝙆𝙆𝙐 ⸩ ⊰─════╯
 `
 }
 
